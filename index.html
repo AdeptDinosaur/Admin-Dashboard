@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h1>Dashboard</h1>
-            <ul class="upper-menu">
+            <h1 class="side">Dashboard</h1>
+            <ul class="upper-menu side">
                 <li>Home</li>
                 <li>Profile</li>
                 <li>Messages</li>
@@ -19,29 +19,37 @@
                 <li>Tasks</li>
                 <li>Communities</li>
             </ul>
-            <ul class="lower-menu">
+            <ul class="lower-menu side">
                 <li>Settings</li>
                 <li>Support</li>
                 <li>Privacy</li>
             </ul>
         </div>
         <div class="header">
-            <input type="search">
-            <p>icon</p>
-            <p>icon</p>
-            <h3>Morgan Oakley</h3>
-            <p>icon</p>
-            <p>Hi there,</p>
-            <h2>Morgan Oakley (@morgan)</h3>
-            <ul>
-                <li><button>New</button></li>
-                <li><button>Upload</button></li>
-                <li><button>Share</button></li>
-            </ul>    
+            <div class="header-top">
+                <input type="search" class="search">
+                <div class="name-etc">
+                    <p class="icon1">icon</p>
+                    <p class="icon2">icon</p>
+                    <h3 class="name1">Morgan Oakley</h3>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <p>icon</p>
+                <div class="name-stack">
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h3>
+                </div>
+                <ul class="header-buttons">
+                    <li><button>New</button></li>
+                    <li><button>Upload</button></li>
+                    <li><button>Share</button></li>
+                </ul>
+            </div>    
         </div>
         <div class="main">
             <div class="projects">
-                <h3>Your Projects</h3>
+                <h3 class="project-title">Your Projects</h3>
                 <div class="project">
                     <h3>Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet,
@@ -105,6 +113,7 @@
             </div>
             <div class="projects-right">
                 <div class="announcements">
+                    <h3>Announcements</h3>
                     <h4>Site Maintenance</h4>
                     <p>Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit
@@ -121,6 +130,7 @@
                     </p>
                 </div>
                 <div class="trending">
+                    <h3>Trending</h3>
                     <ul>
                         <li><p>@tegan</p>
                         <p>World Peace Builder</p></li>
